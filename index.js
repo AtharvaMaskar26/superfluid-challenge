@@ -13,16 +13,9 @@ import { Signer, ethers } from "ethers";
 
 // Connecting to a Node Provider
 // *** Later try it with Alchemy ***
-const provider = new ethers.providers.AlchemyProvider(
-  "maticmum",
-  "pT8higs6q-wB6c6yrcbMBSkHVoEGu1yF" // This is the API key from Infura - Secret
-);
+const provider = ""
 
-const sf = await Framework.create({
-    chainId: 80001,
-    provider
-  });
-
+const sf =""
 const isUserStreaming = async(sender) => {
       // Loading the Super Token you want to use, you can use Daix, Fdaix, anything, just make sure you enter the right addresses or will get errors
     const daix = await sf.loadSuperToken("fDAIx");
