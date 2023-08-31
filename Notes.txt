@@ -1,0 +1,5 @@
+npm init -y
+npm install express
+
+npm install @superfluid-finance/sdk-core
+npm install graphql ethers
